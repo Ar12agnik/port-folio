@@ -1,0 +1,128 @@
+body {
+      background-color: black;
+      color: white;
+    }
+
+    nav.Navbar,
+    a.Navbar {
+      font-style: italic;
+      border: 3px solid black;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      line-height: 3.33em;
+      text-align: right;
+      font-family: 'Tilt Prism', cursive;
+    }
+
+    .footer {
+      font-style: italic;
+      border: 3px solid black;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      line-height: 3.33em;
+      text-align: center;
+    }
+
+    .PYTHON {
+      background-image: url('python.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+    }
+
+    .DSA {
+      background-image: url('dsa.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+    }
+
+    .SQL {
+      background-image: url('sql.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+    }
+
+    .details-description {
+      font-size: 20px;
+      color: black;
+    }
+
+    .details-title {
+      color: black;
+    }
+
+    .COMAND_LINE_APPS {
+      background-image: url('cmd.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+    }
+
+    div {
+      margin: 100px;
+      padding: 100px;
+    }
+
+    .card {
+      height: 90px;
+      width: 240px;
+      padding: 19%;
+      font-style: italic;
+      display: flex;
+      line-height: 1.9;
+      justify-content: center;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 20px 40px;
+      height: 20px;
+      width: 19px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      line-height: 0.2;
+      font-weight: bold;
+      border-radius: 10px;
+      font-size: 20px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .container {
+      display: flex;
+      margin: 15px;
+      padding: 10px;
+    }
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+      margin: 100px;
+      padding: 100px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Pangolin', cursive;
+    }
